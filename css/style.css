@@ -19,8 +19,61 @@ body {
 	overflow: hidden;
 }*/
 
+.top-bar {
+	height: 80px;
+	background-color: #dedede;
+	border-bottom: 1px solid #bbbbbb;
+	border-top: 6px solid #4b4d4a;
+	padding-left: 301px;
+}
+
+.promise {
+	padding-left: 326px;
+	width: 848px;
+}
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 32pt;
+}
+
+.p-2{
+    font-size: 13pt;
+    width: 378px;
+    padding-top: 48px;
+}
+header {
+	background-color: #e4e4e3;
+	height: 53px;
+	border-bottom: 2px solid #ffffff;
+}
+
+section {
+	background-color: #268cc3;
+	height: 420px;
+	padding-top: 50px;
+}
+
+.section.one li{
+		list-style-image: url(../images/blog-date.png);
+}
+
+.webpage {
+	float: right;
+	position: relative;
+    top: -132px;
+    right: 258px;
+
+}
+
+.login {
+	float: right;
+	padding-right: 330px;
+}
 nav {
 	font-size: 12pt;
+	padding-top: 20px;
+	padding-left: 330px;
 }
 
 ul li {
@@ -46,4 +99,43 @@ a:active {
 /*.buttons {
 	font-family: "Arial Narrow", Arial, sans-serif;
 }*/
+
+.special {
+	font-weight: normal;
+}
+footer {
+	background-color: #4b4d4a;
+	height: 360px;
+}
+
+footer h5 {
+	font-size: 11pt;
+}
+
+footer p {
+	font-size: 10pt;
+}
+
+
+.special{
+	font-weight:regular;
+}
+
+.blog {
+	/*font-size: 11pt;*/
+}
+
+footer div{
+	position: relative;
+}
+
+.section {
+    float: left;
+    width: 220px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
 
