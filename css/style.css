@@ -1,5 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*.wrapper {
+  	width: 960px;
+  	margin: 0 auto;
+}
+
+/*h1 {
+	width: 350px;
+	padding: 75px 0 0 0;
+	height: 0;
+	background: url("images/h1-replace.png") no-repeat;
+	overflow: hidden;
+}*/
+
+nav {
+	font-size: 12pt;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+}
+
+a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+    color: #555555;
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+  background: #f9c249;
 }
 
 /*.buttons {
