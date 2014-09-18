@@ -19,6 +19,7 @@ body {
 	overflow: hidden;
 }*/
 
+
 .top-bar {
 	height: 80px;
 	background-color: #dedede;
@@ -27,9 +28,45 @@ body {
 	padding-left: 301px;
 }
 
+.login {
+	float: right;
+	padding-right: 330px;
+}
+
+.button {
+-moz-box-shadow: inset 0px 1px 0px 0px #97c4fe;
+-webkit-box-shadow: inset 0px 1px 0px 0px #97c4fe;
+box-shadow: inset 0px 1px 0px 0px #97c4fe;
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+background: -moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+background-color: #3d94f6;
+-webkit-border-top-left-radius: 4px;
+-moz-border-radius-topleft: 4px;
+border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topright: 4px;
+border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+-moz-border-radius-bottomright: 4px;
+border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 4px;
+-moz-border-radius-bottomleft: 4px;
+border-bottom-left-radius: 4px;
+text-indent: 0px;
+border: 1px solid #337fed;
+color: #ffffff;
+font-family: Arial;
+font-weight: bold;
+line-height: 25px;
+width: 85px;
+text-align: center;
+}
+
 .promise {
 	padding-left: 326px;
 	width: 848px;
+	color: #ffffff;
 }
 
 h2 {
@@ -66,10 +103,7 @@ section {
 
 }
 
-.login {
-	float: right;
-	padding-right: 330px;
-}
+
 nav {
 	font-size: 12pt;
 	padding-top: 20px;
@@ -81,19 +115,18 @@ ul li {
     margin-right: 10px;
     padding-bottom: 10px;
 }
-a {
-    text-decoration: none;
+nav a{
+    color: rgb(126, 124, 124);  
+    text-decoration: none; 
 }
 
-a:link { /* Essentially means a[href], or that the link actually goes somewhere */
-    color: #555555;
-}
-a:visited {
-}
-a:hover {
-}
-a:active {
-  background: #f9c249;
+
+nav a:hover{
+    color: black;
+    background-color: rgb(246, 168, 54);
+    padding: 5px;
+    border: 1px solid rgb(162, 103, 19);
+    border-radius: 5px;
 }
 
 /*.buttons {
@@ -102,18 +135,6 @@ a:active {
 
 .special {
 	font-weight: normal;
-}
-footer {
-	background-color: #4b4d4a;
-	height: 360px;
-}
-
-footer h5 {
-	font-size: 11pt;
-}
-
-footer p {
-	font-size: 10pt;
 }
 
 
@@ -125,17 +146,105 @@ footer p {
 	/*font-size: 11pt;*/
 }
 
+li.blog {
+    background: url("../images/blog-date.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    padding-left: 57px;
+    padding-top: 10px;
+    margin-left: -11px;
+    margin-top: 15px;
+}
+
+li.comment{
+	background: url("../images/comment-bubble.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    padding-left: 57px;
+    padding-top: 10px;
+    margin-left: -11px;
+    margin-top: 15px;
+}
+
 footer div{
 	position: relative;
 }
 
 .section {
     float: left;
-    width: 220px;
+    width: 249px;
     margin: 5px;
-    overflow: hidden;
     padding: 10px;
 }
 
+
+/* FOOTER */
+footer{
+    background-color: rgb(75, 77, 74);
+    border-top: 6px solid rgb(212, 212, 212);
+    color: rgb(242, 242, 242);
+}
+
+footer p{
+   font-size: 11px; 
+}
+
+.section{
+    float: left;
+    margin: 1%;
+}
+
+.section h5{
+    border-bottom: 1px solid rgb(242, 242, 242);
+    padding-bottom: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+
+h6{
+    font-size: 12px; 
+}
+
+.footer-bottom{
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(221, 221, 221); 
+}
+
+.footer-bottom li{
+    display: inline;
+    color: rgb(126, 124, 124);
+}
+
+.footer.left{
+    padding-top: 5px;
+}
+
+.footer.left h5{
+    padding: 10px;
+    margin-top: -1px;
+    font-size: 16px;
+}
+
+.footer.left li{
+    display: inline;
+    float: left;
+}
+
+.footer.right{
+    width: 45%; 
+    float: right;
+    font-size: 12px;
+    margin-top: -3px;
+}
+
+.footer.right li{
+    padding-right: 25px; 
+}
+
+.footer.right a:hover{
+    color: black;   
+}
+
+.footer.right a{
+    color: rgb(126, 124, 124)   
+}
 
 
