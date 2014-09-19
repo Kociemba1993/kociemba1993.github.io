@@ -102,6 +102,11 @@ li.comment {
     padding-top: 10px;
 }
 
+.sections{
+    margin: auto;
+    width: 1083px;
+}
+
 
 /*footer bottom nav*/
 footer {
@@ -190,18 +195,92 @@ article {
 
 .webpage {
     float: right;
-    position: relative;
-    right: 251px;
-    top: -280px;
+    position: absolute;
+    right: 255px;
+    top: 127px;
 }
+
 
 /*main piece of index page*/
 
 .tabs {
+    left: 258px;
     position: absolute;
     top: 541px;
-    left: 258px;
 }
+.main-check {
+    float: right;
+    position: absolute;
+    right: 302px;
+    top: 216px;
+    font-size: 12px;
+}
+.main-check2 {
+    float: right;
+    position: absolute;
+    right: 108px;
+    top: 216px;
+    font-size: 12px;
+}
+.hello {
+    left: -60px;
+    position: relative;
+    top: 49px;
+}
+.best {
+    position: absolute;
+    right: 80px;
+    top: 122px;
+}
+.best h2 {
+    font-size: 39px;
+    color: #227ab0;
+    font-weight: bolder;
+}
+.best p {
+    font-size: 16px;
+    width: 282px;
+    padding-top: 10px;
+}
+/*this is the index-page*/
+.index-main {
+	background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    width: 960px;
+}
+.promise {
+    color: #ffffff;
+    padding-left: 326px;
+    width: 848px;
+}
+h2 {
+    font-family: "Open Sans Condensed",sans-serif;
+    font-size: 32pt;
+}
+.p-2 {
+    font-size: 13pt;
+    padding-top: 48px;
+    width: 378px;
+}
+article {
+    background-color: #268cc3;
+    height: 420px;
+    padding-top: 50px;
+}
+.webpage {
+    float: right;
+    position: absolute;
+    right: 255px;
+    top: 127px;
+}
+.tabs {
+    left: -48px;
+    position: absolute;
+    top: -42px;
+}
+
 
 /*main contents that flow through all pages*/
 main {
