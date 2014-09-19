@@ -198,9 +198,9 @@ article {
 /*main piece of index page*/
 
 .tabs {
-    position: relative;
-    top: -244px;
-    left: 213px;
+    position: absolute;
+    top: 541px;
+    left: 258px;
 }
 
 /*main contents that flow through all pages*/
