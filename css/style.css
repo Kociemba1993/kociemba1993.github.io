@@ -398,14 +398,14 @@ main {
 	font-weight: bold;
 }
 
-.content {
+/*.content {
     float: right;
     margin-right: 12px;
     position: absolute;
     right: -34px;
     top: 11px;
     width: 729px;
-}
+}*/
 
 .content article {
     background-color: #ffffff; 
@@ -712,3 +712,27 @@ article{
     line-height: 10px;
 }
 
+/*clearfix*/
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:before,
+.clearfix:after{
+    content: --;
+    display: block;
+
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
