@@ -386,9 +386,10 @@ main {
 
 .x-lists {
     background: url("../images/x.png") no-repeat scroll left top rgba(0, 0, 0, 0);
-    margin-left: -1px;
+    margin-left: 0;
     margin-top: 15px;
-    padding-left: 35px;
+    padding-left: 32px;
+    padding-top: 4px;
 }
 
 .red {
@@ -398,15 +399,6 @@ main {
 .bold {
 	font-weight: bold;
 }
-
-/*.content {
-    float: right;
-    margin-right: 12px;
-    position: absolute;
-    right: -34px;
-    top: 11px;
-    width: 729px;
-}*/
 
 .content {
     margin-bottom: 71px;
@@ -539,7 +531,7 @@ main {
     margin-right: -39px;
 }
 
-.next {
+/*.next {
     position: relative;
     top: -125px;
     right: -152px;
@@ -553,13 +545,13 @@ main {
 .next p{
     font-size: 12px;
     width: 526px;
-}
+} 
 
 .frame {
     background-color: #f4f4f4;
     margin-bottom: 20px;
     padding: 10px;
-}
+} */
 
 .blog-content {
     padding-top: 25px;
@@ -728,22 +720,18 @@ article{
     width: 55%;
 }
 
-.europe h4{
-    font-size: 10px;
+.office h4{
+    font-size: 13px;
+    margin-bottom: 6px;
 }
 
-.europe li {
+.office li {
     font-size: 10px;
     line-height: 10px;
 }
 
-.aisa h4{
-    font-size: 10px;
-}
-
-.asia li {
-    font-size: 10px;
-    line-height: 10px;
+.office h5 {
+    font-size: 12px;
 }
 
 /*clearfix*/
