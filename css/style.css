@@ -409,7 +409,7 @@ main {
 }*/
 
 .content {
-    float: right;
+    margin-bottom: 71px;
 }
 
 .content article {
@@ -484,13 +484,15 @@ main {
 
 .first-box {
     background-color: #f0f0f0;
+    height: 293px;
+    margin-bottom: 27px;
+    margin-top: 34px;
+    overflow: hidden;
     width: 662px;
 }
 
 .inside-first{
-    float: right;
-    overflow: hidden;
-    width: 242px;
+    margin-top: 29px;
 }
 
 
@@ -506,12 +508,27 @@ main {
 
 .small-box{
     background-color: #f0f0f0;
-    width: 669px;
+    height: 143px;
+    margin-top: 34px;
+    overflow: hidden;
 }
 
-.portfolio-image {
-    position: relative;
-    left: -37px;
+.inside-small{
+    margin-top: 5px;
+}
+
+.port-images {
+    float: left;
+    margin-left: 9px;
+    margin-right: -39px;
+    margin-top: 8px;
+}
+
+.idea {
+    float: left;
+    margin-left: -34px;
+    margin-top: -3px;
+    margin-right: -39px;
 }
 
 .next {
