@@ -672,11 +672,12 @@ main {
     top: -25px;
 }
 
+
 .info-pricing{
     background: linear-gradient(rgb(232, 232, 232) 30%, rgb(248, 248, 248) 50%) repeat scroll 0 0 rgba(0, 0, 0, 0);
     clear: both;
-    right: -139px;
-    top: 218px;
+    /* right: -158px; */
+    /* top: 218px; */
     width: 1223px;
     margin-top: -174px;
 }
@@ -733,9 +734,9 @@ main {
 
 .price p{
     color: #9d9d9d;
-    margin-left: -29px;
+    margin-left: -5px;
     margin-top: 29px;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .below-within{
@@ -762,7 +763,6 @@ main {
     font-size: 14px;
     padding-bottom: 16px;
 }
-
 
 /*contact*/
 .contact input {
