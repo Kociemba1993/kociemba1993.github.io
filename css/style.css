@@ -665,7 +665,9 @@ main {
 }
 
 .cards {
+    left: -57px;
     position: relative;
+    top: -25px;
 }
 
 .info-pricing{
@@ -673,7 +675,8 @@ main {
     clear: both;
     right: -139px;
     top: 218px;
-    width: 1271px;
+    width: 1223px;
+    margin-top: -174px;
 }
 
 .column{
@@ -734,15 +737,29 @@ main {
 }
 
 .below-within{
-    width: 75%;
     color: #9b9a9a;
-    font-style: italic; 
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 35pc;
+    width: 75%;
 }
 
-/*
-article{
-    margin-bottom: 30px;
-}*/
+.pricing-info {
+    background-color: #ffffff;
+    padding-bottom: 86px;
+    padding-top: 60px;
+    width: 639px;
+}
+
+.pricing-info h4 {
+    font-size: 17px;
+    padding-bottom: 22px;
+}
+
+.pricing-info p {
+    font-size: 14px;
+    padding-bottom: 16px;
+}
 
 
 /*contact*/
