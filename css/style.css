@@ -65,16 +65,24 @@ nav a:hover {
 }
 
 .button {
-    background: -moz-linear-gradient(center top , #3d94f6 5%, #1e62d0 100%) repeat scroll 0 0 #3d94f6;
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+    background: -moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-indent: 0px;
     border: 1px solid #337fed;
-    border-radius: 4px;
-    box-shadow: 0 1px 0 0 #97c4fe inset;
+    display: inline-block;
     color: #ffffff;
-    font-family: Arial;
+    font-size: 14px;
     font-weight: bold;
+    font-style: normal;
+    height: 28px;
     line-height: 25px;
-    text-align: center;
-    text-indent: 0;
+    width: 85px;
 }
 
 /*.special {
@@ -440,6 +448,12 @@ main {
 .content p {
     font-size: 13px;
     width: 641px;
+    margin-bottom: 10px;
+}
+
+
+.under-box {
+    padding-left: 14px;
 }
 
 .under-box li {
@@ -454,9 +468,9 @@ main {
 }
 
 .under-box h4{
-    font-size: 17px;
+    font-size: 15px;
     padding-top: 29px;
-    padding-left: 18px;
+    margin-bottom: 14px;
 }
 
 .under-box ol {
@@ -464,6 +478,12 @@ main {
     line-height: 15px;
     padding-top: 20px;
     padding-left: 18px;
+}
+
+.under-box p {
+    font-size: 13px;
+    margin-bottom: 20px;
+    width: 155px;
 }
 
 .flickr {
@@ -487,6 +507,20 @@ main {
     margin-top: 29px;
 }
 
+
+.inside-first h1 {
+    font-size: 22px;
+}
+
+.inside-first h2 {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.inside-first p {
+    font-size: 13px;
+    margin-bottom: 14px;
+}
 
 .title-portfolio h4 {
     font-size: 10px;
