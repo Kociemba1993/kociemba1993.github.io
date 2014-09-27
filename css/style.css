@@ -409,7 +409,7 @@ main {
 }
 
 .content {
-    margin-bottom: 71px;
+    margin-bottom: 188px
 }
 
 .content article {
@@ -476,8 +476,7 @@ main {
 .under-box ol {
     font-size: 34px;
     line-height: 15px;
-    padding-top: 20px;
-    padding-left: 18px;
+    padding-top: 6px;
 }
 
 .under-box p {
@@ -487,7 +486,14 @@ main {
 }
 
 .flickr {
-    position: absolute;
+    margin-left: -37px;
+    margin-top: -18px;
+}
+
+.read {
+    margin-bottom: -20px;
+    margin-left: -17px;
+    margin-top: 1px;
 }
 
 .feed {
@@ -612,9 +618,6 @@ main {
     padding-top: 5px;
 }
 
-.flickr {
-    position: relative;
-}
 
 /* pricing page*/
 
