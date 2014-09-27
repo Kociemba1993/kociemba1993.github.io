@@ -785,6 +785,32 @@ main {
     font-size: 12px;
 }
 
+.info-area{
+    margin-bottom: -110px;
+}
+
+.map {
+    position: relative;
+}
+
+.map-right {
+    left: 470px;
+    position: relative;
+    top: -324px;
+}
+
+.map-right p {
+    font-size: 12px;
+    width: 131px;
+}
+
+.map-img {
+    margin-left: -22px;
+    margin-top: -1px;
+    position: relative;
+}
+
+
 /*clearfix*/
 
 .left {
