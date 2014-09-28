@@ -85,9 +85,6 @@ nav a:hover {
     width: 85px;
 }
 
-/*.special {
-    font-weight: normal;
-}*/
 
 /*start of the footer with the four sections*/
 .section {
@@ -209,7 +206,7 @@ h6 {
 
 h2 {
     font-family: "Open Sans Condensed",sans-serif;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .p-2 {
@@ -227,7 +224,7 @@ article {
 .webpage {
     float: right;
     position: absolute;
-    right: 255px;
+    right: 241px;
     top: 127px;
 }
 
@@ -308,36 +305,6 @@ article {
     padding: 10px;
     position: relative;
     width: 960px;
-}
-
-.promise {
-    color: #ffffff;
-    padding-left: 326px;
-    width: 848px;
-}
-
-h2 {
-    font-family: "Open Sans Condensed",sans-serif;
-    font-size: 32pt;
-}
-
-.p-2 {
-    font-size: 13pt;
-    padding-top: 48px;
-    width: 378px;
-}
-
-article {
-    background-color: #268cc3;
-    height: 420px;
-    padding-top: 50px;
-}
-
-.webpage {
-    float: right;
-    position: absolute;
-    right: 225px;
-    top: 127px;
 }
 
 .tabs {
@@ -422,7 +389,7 @@ main {
 }
 
 .content {
-    margin-bottom: 188px
+    margin-bottom: 188px;
 }
 
 .content article {
@@ -464,7 +431,6 @@ main {
     margin-bottom: 10px;
 }
 
-
 .under-box {
     padding-left: 14px;
 }
@@ -497,6 +463,8 @@ main {
     width: 155px;
 }
 
+
+/*blog*/
 .flickr {
     margin-left: -37px;
     margin-top: -18px;
@@ -508,10 +476,33 @@ main {
     margin-top: 1px;
 }
 
-.feed {
-    font-size: 12px;
+.blog-content {
+    padding-top: 25px;
+    border-bottom: 1px solid;
+    height: 146px;
+    width: 652px;
+    padding-top: 21px;
+    padding-bottom: 29px;
 }
 
+.blog-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #121a1c;
+}
+
+.blog-content p {
+    font-size: 13px;
+}
+
+.blog-content h3 {
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+
+/*portfolio*/
 .first-box {
     background-color: #f0f0f0;
     height: 293px;
@@ -524,7 +515,6 @@ main {
 .inside-first{
     margin-top: 29px;
 }
-
 
 .inside-first h1 {
     font-size: 22px;
@@ -583,53 +573,6 @@ main {
     margin-right: -39px;
 }
 
-/*.next {
-    position: relative;
-    top: -125px;
-    right: -152px;
-}
-
-.next h5{
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.next p{
-    font-size: 12px;
-    width: 526px;
-} 
-
-.frame {
-    background-color: #f4f4f4;
-    margin-bottom: 20px;
-    padding: 10px;
-} */
-
-.blog-content {
-    padding-top: 25px;
-    border-bottom: 1px solid;
-    height: 146px;
-    width: 652px;
-    padding-top: 21px;
-    padding-bottom: 29px;
-}
-
-.blog-content h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #121a1c;
-}
-
-.blog-content p {
-    font-size: 13px;
-}
-
-.blog-content h3 {
-    font-size: 12px;
-    font-weight: normal;
-    padding-top: 5px;
-}
-
 
 /* pricing page*/
 
@@ -684,7 +627,6 @@ main {
     position: relative;
     top: -25px;
 }
-
 
 .info-pricing{
     background: linear-gradient(rgb(232, 232, 232) 30%, rgb(248, 248, 248) 50%) repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -777,15 +719,8 @@ main {
     padding-bottom: 16px;
 }
 
-/*contact*/
-.contact input {
-    background-color: rgba(152, 152, 152, 0.04);
-    font-style: italic;
-    margin-bottom: 20px;
-    padding: 5px;
-    width: 55%;
-}
 
+/*contact*/
 .office h4{
     font-size: 13px;
     margin-bottom: 6px;
@@ -804,10 +739,6 @@ main {
     margin-bottom: -110px;
 }
 
-.map {
-    position: relative;
-}
-
 .map-right {
     left: 470px;
     position: relative;
@@ -824,37 +755,6 @@ main {
     margin-top: -1px;
     position: relative;
 }
-
-
-/*clearfix*/
-
-.left {
-    float:left;
-    position: absolute;
-}
-
-.right {
-    float: right;
-    margin-right: 38px;
-}
-
-.clearfix:before,
-.clearfix:after{
-    content: --;
-    display: block;
-
-}
-
-.clearfix:after{
-    clear:both;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-
-/*contact*/
 
 .contact-form {
     margin-top: 25px;
@@ -887,3 +787,32 @@ input.submit {
     font-weight: bold;
     padding-right: 350px;
 }
+
+
+/*clearfix*/
+
+.left {
+    float:left;
+    position: absolute;
+}
+
+.right {
+    float: right;
+    margin-right: 38px;
+}
+
+.clearfix:before,
+.clearfix:after{
+    content: --;
+    display: block;
+
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
