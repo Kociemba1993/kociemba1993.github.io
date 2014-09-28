@@ -621,8 +621,8 @@ main {
 }
 
 .left-content p {
-    font-size: 16px;
-    padding-top: 47px;
+    font-size: 13px;
+    padding-top: 28px;
     padding-left: 21px;
     width: 576px;
 }
@@ -695,7 +695,7 @@ main {
 
 .price h2{
     color: #fd6300;
-    font-size: 28px;
+    font-size: 19px;
     margin-left: -37px;
     padding-top: 19px;
     width: 50%;
@@ -703,9 +703,8 @@ main {
 
 .price p{
     color: #9d9d9d;
-    margin-left: -5px;
-    margin-top: 29px;
-    /* width: 50%; */
+    margin-left: -7px;
+    margin-top: 20px;
 }
 
 .below-within{
